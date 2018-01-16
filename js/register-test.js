@@ -68,7 +68,7 @@ myApp.controller("RegisterCtrl",function ($scope,$cookieStore,$cookies,$window)
                 localStorage.setItem('list',  JSON.stringify(userinfo.list));
                 localStorage.setItem('status',  JSON.stringify(userinfo.status));
                 alert("Register Successfully");
-                $window.location.href = "HomePage.1.html";
+                $window.location.href = "index.html";
                 return userinfo.username+userinfo.password;
 
             }
